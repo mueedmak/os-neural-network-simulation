@@ -33,3 +33,11 @@ Report.pdf     Project documentation
 
 ```bash
 g++ os.cpp -pthread -o os
+
+## Run
+
+
+```bash
+./os
+
+
