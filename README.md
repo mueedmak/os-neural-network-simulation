@@ -24,20 +24,25 @@ A Linux-based simulation of a feedforward neural network that models each networ
 
 ## Project Structure
 
+```text
 os.cpp         Main implementation
 input.txt      Sample network inputs
 output.txt     Generated output
-Report.pdf     Project documentation
+Project_Report.pdf   Project documentation
+```
 
 ## How to Build
 
 ```bash
 g++ os.cpp -pthread -o os
+```
 
 ## Run
 
-
 ```bash
 ./os
+```
 
+## Academic Project
 
+This project was developed as part of an Operating Systems course and demonstrates process management, multithreading, synchronization, and inter-process communication (IPC) concepts in Linux.
