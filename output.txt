@@ -1,0 +1,45 @@
+========================================
+Hidden Layer 1:
+FIRST FORWARD PASS
+Hidden Layer 2:
+  Neuron 0: 0.254
+  Neuron 1: 0.212
+Output Layer:
+  Neuron 0: 0.07712
+========================================
+Input Layer:
+  Neuron 0: 0.0678
+  Neuron 1: 0.161
+
+  Neuron 1: 0.06186
+  Sum: 0.13898
+  Neuron 0: 0.22
+  Neuron 1: 0.56
+
+  f(x1): 0.579148
+  f(x2): -0.0598323
+
+
+========================================
+BACKWARD PASS
+========================================
+Hidden Layer 2 received:
+  f(x1): 0.579148
+  f(x2): -0.0598323
+
+Hidden Layer 1 received:
+  f(x1): 0.579148
+  f(x2): -0.0598323
+
+Input Layer received:
+  f(x1): 0.579148
+  f(x2): -0.0598323
+
+========================================
+SECOND FORWARD PASS
+========================================
+Input Layer:
+  Neuron 0: 0.0459483
+  Neuron 1: 0.149811
+
+========================================
